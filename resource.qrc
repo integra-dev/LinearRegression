@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/">
+        <file>img/icons/file.ico</file>
+        <file>img/icons/red_cross.ico</file>
+        <file>img/icons/regression-icon.png</file>
+        <file>img/icons/drop.png</file>
+		<file>img/icons/csv-icon.ico</file>
+		<file>img/icons/regression-icon-color.png</file>
+    </qresource>
+</RCC>
