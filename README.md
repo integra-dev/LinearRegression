@@ -18,6 +18,8 @@ Features added:
 
 # Converting .ui file to .py
 To make .py file from .ui execute:
-```python -m PyQt5.uic.pyuic <src_filepath>.ui -o <target_filepath>.py -x```
+```python -m PyQt5.uic.pyuic mainwindow.ui -o mainwindow.py -x```
+
+Note that all changes made in ```mainwindow.py``` **will be lost**. So you should save it somewhere.
 
 Use ```pyrcc5 -o resource_rc.py resource.qrc``` to apply changes made in .qrc file
